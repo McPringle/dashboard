@@ -1,0 +1,17 @@
+{
+  "name": "Dashboard",
+  "homepage": "https://github.com/McPringle/dashboard",
+  "authors": [
+    "Marcus Fihlon <marcus@fihlon.ch>"
+  ],
+  "description": "This is an example application for my talk about Web Components and Google Polymer.",
+  "main": "index.html",
+  "license": "AGPL3",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.9.1",
+    "paper-card": "PolymerElements/paper-card#^1.1.6",
+    "paper-progress": "PolymerElements/paper-progress#^1.0.12",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.4.4"
+  }
+}
