@@ -21,7 +21,7 @@
 
         <paper-material elevation="5">
             <h1>Server Dashboard</h1>
-            <iron-ajax auto url="../../api/metrics.json" handle-as="json" last-response="{{ajaxResponse}}"></iron-ajax>
+            <iron-ajax auto url="[[rootPath]]api/metrics.json" handle-as="json" last-response="{{ajaxResponse}}"></iron-ajax>
             <template is="dom-repeat" items="[[ajaxResponse]]">
                 <info-panel serverdata="{{item}}"></info-panel>
             </template>
